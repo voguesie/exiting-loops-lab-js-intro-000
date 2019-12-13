@@ -21,3 +21,8 @@ function keepGoing(array, changeValue, skipValue) { // Changes every value to ch
   }
   return array
 }
+
+
+function findBy(array, findFn) { // Looks for an element in array based on findFn
+  
+}
