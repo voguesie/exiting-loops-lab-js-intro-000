@@ -26,7 +26,7 @@ function keepGoing(array, changeValue, skipValue) { // Changes every value to ch
 function findBy(array, findFn) { // Looks for an element in array based on findFn
   for (let i = 0; i < array.length; i++) {
 //  if (array[i] === findFn) {
-    if (findFn(array[i]))
+    if (findFn(array[i])) {
     return array[i]
   }
 }
